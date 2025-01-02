@@ -17,6 +17,14 @@ type of data type in js
 4.boolean = true of false
 5.null = standalone value 
 6.undefind = 
-7.symbol*/
+7.symbol = unique
+
+object=
+*/
+console.log(typeof("laxmipriya"))
+console.log(typeof(age))
+console.log(typeof null)
+console.log(typeof undefind)
+
 
 
