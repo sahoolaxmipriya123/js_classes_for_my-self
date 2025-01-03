@@ -21,3 +21,24 @@ let myFunction  = function(){    //function
 
 
 // stack(primitive)  Heap(Non-primitive)
+
+
+let myName = "laxmipriya"
+
+let myFriendName =myName
+myFriendName = "gayatri"
+console.log(myName)
+console.log(myFriendName)
+
+let userOne = {
+    email:"laxmi@gmail.com",
+    password:"laxmi"
+
+}
+let userTwo =userOne
+console.log(userTwo)
+
+userTwo.email = "priya@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
