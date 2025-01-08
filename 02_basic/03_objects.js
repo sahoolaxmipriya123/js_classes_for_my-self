@@ -69,7 +69,53 @@ let obj3 = {7:"a",8:"b",9:"c"}
 // let obj4 = {obj1,obj2,obj3}
 // let obj4 = Object.assign({},obj1,obj2,obj3)
 let obj4 = {...obj1,...obj2,...obj3}
-console.log(obj4)
+// console.log(obj4)
+
+
+
+let user1 = [
+    {
+        id:1,
+        email:"sahoo@gmail.com"
+    }
+    ,  {
+        id:1,
+        email:"sahoo@gmail.com"
+    },  {
+        id:1,
+        email:"sahoo@gmail.com"
+    },  {
+        id:1,
+        email:"sahoo@gmail.com"
+    }
+]
+// console.log(user1[1].email)
+
+// console.log(tinder)
+// console.log(Object.keys(tinder))
+// console.log(Object.values(tinder))
+// console.log(Object.entries(tinder))
+// console.log(tinder.hasOwnProperty('isloggedin'))
+
+
+
+let course = {
+ "course name":"my self learning",
+ price :999,
+ instractorName :"Hitesh"
+
+}
+// console.log(course.instractorName)
+let {instractorName :instructor} = course
+// console.log(instractorName)
+
+console.log(instructor)
+
+
+
+
+
+
 
 
 
