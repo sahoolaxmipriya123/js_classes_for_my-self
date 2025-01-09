@@ -72,3 +72,4 @@ function addTwoNumber(num1 , num2){
    }
 
 console.log(handleArray(myNewArray))
+
