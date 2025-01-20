@@ -12,12 +12,18 @@
 // ifelse
 
 
-let temperature =42
+// let temperature =42
 
-if (temperature <=40) {
-    console.log("its a normal temperature")
-} else {
-    console.log("temperature is high")
+// if (temperature <=40) {
+//     console.log("its a normal temperature")
+// } else {
+//     console.log("temperature is high")
     
-}
+// }
+
+
+
+let score = 100;
+if (score < 200) console.log("you are fail");
+    
 
